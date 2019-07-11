@@ -1,0 +1,6 @@
+{
+  "pipeline": "spacy_sklearn",
+  "path" : "./models/",
+  "data" : "training_data.json",
+  "num_threads": 4
+}

@@ -1,0 +1,3099 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Where should we go for lunch?",
+        "intent": "lunch_idea",
+        "entities": []
+      },
+      {
+        "text": "what should we eat?",
+        "intent": "lunch_idea",
+        "entities": []
+      },
+      {
+        "text": "I'm hungry",
+        "intent": "lunch_idea",
+        "entities": []
+      },
+      {
+        "text": "What kind of food should we grab for lunch",
+        "intent": "lunch_idea",
+        "entities": []
+      },
+      {
+        "text": "Should we go to the cafe today?",
+        "intent": "lunch_idea",
+        "entities": []
+      },
+      {
+        "text": "What is the wifi password?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "How do I connect to the internet?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "internet plz",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "network access",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "wifi password?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "what should we do for lunch?",
+        "intent": "lunch_idea",
+        "entities": []
+      },
+      {
+        "text": "what time does the office open?",
+        "intent": "office_hours",
+        "entities": []
+      },
+      {
+        "text": "Is the office open right now?",
+        "intent": "office_hours",
+        "entities": []
+      },
+      {
+        "text": "Where is the office at?",
+        "intent": "office_location",
+        "entities": []
+      },
+      {
+        "text": "What is the address here?",
+        "intent": "office_location",
+        "entities": []
+      },
+      {
+        "text": "How do I get to the office?",
+        "intent": "office_location",
+        "entities": []
+      },
+      {
+        "text": "Tell me where the office is",
+        "intent": "office_location",
+        "entities": []
+      },
+      {
+        "text": "What time does everyone get to work?",
+        "intent": "office_hours",
+        "entities": []
+      },
+      {
+        "text": "When does everyone leave?",
+        "intent": "office_hours",
+        "entities": []
+      },
+      {
+        "text": "What time is work over?",
+        "intent": "office_hours",
+        "entities": []
+      },
+      {
+        "text": "When should I get to work?",
+        "intent": "office_hours",
+        "entities": []
+      },
+      {
+        "text": "Hi!",
+        "intent": "hello",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "hello",
+        "entities": []
+      },
+      {
+        "text": "Who are you?",
+        "intent": "hello",
+        "entities": []
+      },
+      {
+        "text": "What is your name?",
+        "intent": "hello",
+        "entities": []
+      },
+      {
+        "text": "What do you do here?",
+        "intent": "hello",
+        "entities": []
+      },
+      {
+        "text": "What's up?",
+        "intent": "hello",
+        "entities": []
+      },
+      {
+        "text": "Who are you?",
+        "intent": "hello",
+        "entities": []
+      },
+      {
+        "text": "What’s the WiFi password?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "What’s the wifi password?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "wifi password?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "wifi?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "how do I get on the network?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "how do I get on the internet?",
+        "intent": "wifi_password",
+        "entities": []
+      },
+      {
+        "text": "What should I eat?",
+        "intent": "lunch_idea",
+        "entities": []
+      },
+      {
+        "text": "What is the capital of United Arab Emirates?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 43,
+            "value": "United Arab Emirates",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Nigeria?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Nigeria",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Ghana?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Ghana",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Pitcairn?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Pitcairn",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Ethiopia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Ethiopia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Algeria?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Algeria",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Niue?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Niue",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Jordan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Jordan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Netherlands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Netherlands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Andorra?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Andorra",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Turkey?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Turkey",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Madagascar?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Madagascar",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Samoa?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Samoa",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Turkmenistan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Turkmenistan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Eritrea?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Eritrea",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Kazakhstan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Kazakhstan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Paraguay?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Paraguay",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Greece?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Greece",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cook Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Cook Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Iraq?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Iraq",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Azerbaijan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Azerbaijan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Mali?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Mali",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Brunei?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Brunei",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Thailand?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Thailand",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Central African Republic?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 47,
+            "value": "Central African Republic",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Gambia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Gambia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saint Kitts and Nevis?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 44,
+            "value": "Saint Kitts and Nevis",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of China?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "China",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Lebanon?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Lebanon",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Serbia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Serbia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Belize?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Belize",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Germany?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Germany",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Switzerland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Switzerland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Kyrgyzstan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Kyrgyzstan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Guinea-Bissau?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "Guinea-Bissau",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Colombia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Colombia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Brazil?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Brazil",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Slovakia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Slovakia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Republic of the Congo?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 44,
+            "value": "Republic of the Congo",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Barbados?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Barbados",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Belgium?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Belgium",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Romania?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Romania",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Hungary?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Hungary",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Argentina?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Argentina",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Burundi?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Burundi",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Egypt?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Egypt",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Australia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Australia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Venezuela?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Venezuela",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saint Lucia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Saint Lucia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of United States Virgin Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 51,
+            "value": "United States Virgin Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Moldova?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Moldova",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Turks and Caicos Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 47,
+            "value": "Turks and Caicos Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Guinea?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Guinea",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Denmark?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Denmark",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Senegal?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Senegal",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Syria?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Syria",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bangladesh?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Bangladesh",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of East Timor?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "East Timor",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Djibouti?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Djibouti",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Tanzania?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Tanzania",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Qatar?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Qatar",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Isle of Man?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Isle of Man",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Ireland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Ireland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Tajikistan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Tajikistan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Palestine?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Palestine",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Tristan da Cunha?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Tristan da Cunha",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Sahrawi Arab Democratic Republic\u00a0[c]?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 59,
+            "value": "Sahrawi Arab Democratic Republic\u00a0[c]",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Akrotiri and Dhekelia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 44,
+            "value": "Akrotiri and Dhekelia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Christmas Island?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Christmas Island",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Sierra Leone?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Sierra Leone",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Tuvalu?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Tuvalu",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Botswana?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Botswana",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cayman Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "Cayman Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Ascension Island?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Ascension Island",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Guyana?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Guyana",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Gibraltar?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Gibraltar",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Guatemala?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Guatemala",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saint Barth\u00e9lemy?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Saint Barth\u00e9lemy",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Guam?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Guam",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bermuda?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Bermuda",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Easter Island?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "Easter Island",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Vietnam?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vietnam",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Zimbabwe?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Zimbabwe",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Somaliland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Somaliland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cuba?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Cuba",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Finland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Finland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Solomon Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "Solomon Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Pakistan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Pakistan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Indonesia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Indonesia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saint Helena?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Saint Helena",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Israel?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Israel",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of South Sudan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "South Sudan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Afghanistan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Afghanistan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Uganda?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Uganda",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Nepal?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Nepal",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Sudan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Sudan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Ukraine?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Ukraine",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Rwanda?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Rwanda",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of South Georgia and the South Sandwich Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 67,
+            "value": "South Georgia and the South Sandwich Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Jamaica?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Jamaica",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Norfolk Island?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "Norfolk Island",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saint Vincent and the Grenadines?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 55,
+            "value": "Saint Vincent and the Grenadines",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Democratic Republic of the Congo?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 55,
+            "value": "Democratic Republic of the Congo",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Malaysia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Malaysia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Kuwait?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Kuwait",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Gabon?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Gabon",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Malawi?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Malawi",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Peru?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Peru",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Portugal?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Portugal",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Slovenia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Slovenia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Togo?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Togo",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of United Kingdom?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "United Kingdom",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Angola?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Angola",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Zambia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Zambia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Luxembourg?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Luxembourg",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Spain?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Spain",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Marshall Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Marshall Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Equatorial Guinea?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 40,
+            "value": "Equatorial Guinea",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Maldives?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Maldives",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Nicaragua?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Nicaragua",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bahrain?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Bahrain",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Philippines?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Philippines",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Mozambique?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Mozambique",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saint Martin?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Saint Martin",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Lesotho?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Lesotho",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Wallis and Futuna?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 40,
+            "value": "Wallis and Futuna",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Swaziland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Swaziland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Mexico?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Mexico",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Belarus?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Belarus",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Somalia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Somalia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Monaco?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Monaco",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Liberia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Liberia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Uruguay?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Uruguay",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Comoros?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Comoros",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Russia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Russia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Oman?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Oman",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Kenya?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Kenya",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bahamas?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Bahamas",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Myanmar?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Myanmar",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Chad?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Chad",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of India?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "India",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Palau?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Palau",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Niger?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Niger",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cyprus?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Cyprus",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Northern Cyprus?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "Northern Cyprus",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Mauritania?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Mauritania",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of New Caledonia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "New Caledonia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Tonga?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Tonga",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Greenland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Greenland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Aruba?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Aruba",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Norway?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Norway",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Canada?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Canada",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Burkina Faso?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Burkina Faso",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of American Samoa?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "American Samoa",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Federated States of Micronesia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 53,
+            "value": "Federated States of Micronesia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Panama?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Panama",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of French Polynesia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "French Polynesia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Suriname?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Suriname",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of France?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "France",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Sint Maarten?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Sint Maarten",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cambodia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Cambodia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Montserrat?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Montserrat",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Montenegro?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Montenegro",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Mauritius?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Mauritius",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Papua New Guinea?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Papua New Guinea",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Vanuatu?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vanuatu",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Haiti?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Haiti",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Trinidad and Tobago?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 42,
+            "value": "Trinidad and Tobago",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Benin?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Benin",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Czech Republic?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "Czech Republic",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cape Verde?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Cape Verde",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of South Africa?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "South Africa",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Kosovo[g]?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Kosovo[g]",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of North Korea?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "North Korea",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Ecuador?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Ecuador",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Morocco?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Morocco",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Iceland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Iceland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Latvia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Latvia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saudi Arabia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Saudi Arabia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of British Virgin Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 45,
+            "value": "British Virgin Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Italy?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Italy",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Dominica?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Dominica",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Northern Mariana Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 47,
+            "value": "Northern Mariana Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Costa Rica?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Costa Rica",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Puerto Rico?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Puerto Rico",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of San Marino?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "San Marino",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of El Salvador?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "El Salvador",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Yemen?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Yemen",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Chile?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Chile",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Dominican Republic?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 41,
+            "value": "Dominican Republic",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of S\u00e3o Tom\u00e9 and Pr\u00edncipe?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 44,
+            "value": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bosnia and Herzegovina?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 45,
+            "value": "Bosnia and Herzegovina",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of South Korea?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "South Korea",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Singapore?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Singapore",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Republic of Macedonia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 44,
+            "value": "Republic of Macedonia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bulgaria?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Bulgaria",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Sri Lanka?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Sri Lanka",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Grenada?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Grenada",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Jersey?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Jersey",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Antigua and Barbuda?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 42,
+            "value": "Antigua and Barbuda",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Guernsey?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Guernsey",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Saint Pierre and Miquelon?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 48,
+            "value": "Saint Pierre and Miquelon",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Falkland Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Falkland Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Artsakh?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Artsakh",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Sweden?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Sweden",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bolivia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Bolivia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Abkhazia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Abkhazia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Fiji?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Fiji",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Taiwan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Taiwan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Estonia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Estonia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Kiribati?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Kiribati",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Uzbekistan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Uzbekistan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Georgia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Georgia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Honduras?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Honduras",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Iran?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Iran",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Bhutan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Bhutan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Albania?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Albania",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Transnistria?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Transnistria",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Japan?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Japan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Faroe Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "Faroe Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Libya?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Libya",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of South Ossetia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "South Ossetia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Tunisia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Tunisia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Mongolia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Mongolia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Liechtenstein?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "Liechtenstein",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Malta?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Malta",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Anguilla?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Anguilla",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Vatican City?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Vatican City",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Seychelles?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "Seychelles",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Austria?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Austria",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Laos?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Laos",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Lithuania?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Lithuania",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Poland?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Poland",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of United States?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 36,
+            "value": "United States",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of New Zealand?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "New Zealand",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cocos (Keeling) Islands?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 46,
+            "value": "Cocos (Keeling) Islands",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cura\u00e7ao?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Cura\u00e7ao",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Namibia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Namibia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Ivory Coast?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Ivory Coast",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Cameroon?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Cameroon",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Nauru?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Nauru",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Armenia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Armenia",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "What is the capital of Croatia?",
+        "intent": "capital_lookup",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Croatia",
+            "entity": "region"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
